@@ -1,45 +1,42 @@
+# main_dashboard.py
 import streamlit as st
-import joblib
-import pandas as pd
-from datetime import datetime
 
-# Load the trained model
-model = joblib.load('flight_price_model.joblib')
+def main():
+    st.set_page_config(
+        page_title="Welcome to Voyage Analytics",
+        page_icon="🚀",
+    )
+    st.title("Welcome to Voyage Analytics")
+    st.header("Integrating MLOps for Predictive and Recommender Systems in Travel Project")
 
-# Streamlit app
-st.title('Flight Price Predictor')
+    st.write("Select a model to launch:")
 
-# # Input fields for user
-travelCode = st.selectbox('Travel Code', [0, 1, 2])  # Example options, adjust according to dataset
-userCode = st.selectbox('User Code', [0, 1, 2])  # Example options, adjust according to dataset
-from_location = st.selectbox('From Location', ['Recife (PE)', 'Florianopolis (SC)', 'Brasilia (DF)',
-       'Aracaju (SE)', 'Salvador (BH)', 'Campo Grande (MS)',
-       'Sao Paulo (SP)', 'Natal (RN)', 'Rio de Janeiro (RJ)'])
-to_location = st.selectbox('To Location', ['Florianopolis (SC)', 'Recife (PE)', 'Brasilia (DF)',
-       'Salvador (BH)', 'Aracaju (SE)', 'Campo Grande (MS)',
-       'Sao Paulo (SP)', 'Natal (RN)', 'Rio de Janeiro (RJ)'])
-flightType = st.selectbox('Flight Type', ['firstClass', 'economy','premium'])
-agency = st.selectbox('Agency', ['FlyingDrops', 'CloudFy','Rainbow'])
-time = st.number_input('Time (in hours)', min_value=0.0, value=1.76)
-distance = st.number_input('Distance (in km)', min_value=0.0, value=676.53)
-date = st.date_input('Date', datetime(2019, 9, 26))
+    if st.button("Flight Price Predictor"):
+        st.experimental_rerun()  # Clear previous state
+        run_flight_price_predictor()
 
-# Preprocess input
-input_data = pd.DataFrame({
-    'travelCode': [travelCode],
-    'userCode': [userCode],
-    'from': [from_location],
-    'to': [to_location],
-    'flightType': [flightType],
-    'agency': [agency],
-    'time': [time],
-    'distance': [distance],
-    'day': [date.day],
-    'month': [date.month],
-    'year': [date.year]
-})
+    if st.button("Gender Classification"):
+        st.experimental_rerun()  # Clear previous state
+        run_gender_classification()
 
-# Predict flight price
-if st.button('Predict Price'):
-    price = model.predict(input_data)
-    st.write(f'Predicted Flight Price: ${price[0]:.2f}')
+    if st.button("Hotel Recommendation"):
+        st.experimental_rerun()  # Clear previous state
+        run_hotel_recommendation()
+
+def run_flight_price_predictor():
+    st.title("Flight Price Predictor")
+    import regression
+    regression.main()
+
+def run_gender_classification():
+    st.title("Gender Classification")
+    import classification
+    classification.main()
+
+def run_hotel_recommendation():
+    st.title("Hotel Recommendation")
+    import recommendation
+    recommendation.main()
+
+if __name__ == "__main__":
+    main()
