@@ -11,7 +11,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 def main():
-    st.title('Hotel Recommendation App')
+    # st.title('Hotel Recommendation App')
 
     # Load the dataset
     file_path = 'hotels.csv'

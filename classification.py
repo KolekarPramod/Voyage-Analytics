@@ -45,6 +45,7 @@ def main():
 def predict_price(input_data, lr_model, pca, scaler):
     # Prepare the input data
     text_columns = ['name']
+    model = SentenceTransformer('flax-sentence-embeddings/all_datasets_v4_MiniLM-L6')
 
     # Initialize an empty DataFrame
     df = pd.DataFrame([input_data])

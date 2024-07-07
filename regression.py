@@ -8,11 +8,8 @@ def main():
     st.title('Flight Price Predictor')
 
     # Load the trained model
-    model = joblib.load('flight_price_model.joblib')
+    model = joblib.load('flight_price_model (1).joblib')
 
-    # Input fields for user
-    travelCode = st.selectbox('Travel Code', [0, 1, 2])  # Example options, adjust according to dataset
-    userCode = st.selectbox('User Code', [0, 1, 2])  # Example options, adjust according to dataset
     from_location = st.selectbox('From Location', ['Recife (PE)', 'Florianopolis (SC)', 'Brasilia (DF)',
            'Aracaju (SE)', 'Salvador (BH)', 'Campo Grande (MS)',
            'Sao Paulo (SP)', 'Natal (RN)', 'Rio de Janeiro (RJ)'])
@@ -27,8 +24,8 @@ def main():
 
     # Preprocess input
     input_data = pd.DataFrame({
-        'travelCode': [travelCode],
-        'userCode': [userCode],
+        # 'travelCode': [travelCode],
+        # 'userCode': [userCode],
         'from': [from_location],
         'to': [to_location],
         'flightType': [flightType],
