@@ -1,10 +1,9 @@
-# regression.py
 import streamlit as st
 import joblib
 import pandas as pd
 from datetime import datetime
 
-def main():
+def flight_price_prediction_page():
     st.title('Flight Price Predictor')
 
     # Load the trained model
@@ -41,6 +40,3 @@ def main():
     if st.button('Predict Price'):
         price = model.predict(input_data)
         st.write(f'Predicted Flight Price: ${price[0]:.2f}')
-
-if __name__ == '__main__':
-    main()

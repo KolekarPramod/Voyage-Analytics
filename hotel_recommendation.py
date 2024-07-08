@@ -1,4 +1,3 @@
-# recommendation.py
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -6,12 +5,12 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 import random
-
 import warnings
+
 warnings.filterwarnings("ignore")
 
-def main():
-    # st.title('Hotel Recommendation App')
+def hotel_recommendation_page():
+    st.title('Hotel Recommendation App')
 
     # Load the dataset
     file_path = 'hotels.csv'
@@ -114,20 +113,14 @@ def main():
 
     cf_recommender_model = CFRecommender(cf_preds_df, interactions_from_selected_users_df)
 
-    st.title('Hotel Recommendation App')
-
-
     usercode = hotel_df['userCode'].unique()
 
     usercode = st.selectbox('Select usercode:', usercode)
 
-    recommended_hotels = 0.0 # Default value
+    recommended_hotels = 0.0  # Default value
     if st.button('Get Recommendations'):
-        recommended_hotels = cf_recommender_model.recommend_items(usercode,verbose=True)
+        recommended_hotels = cf_recommender_model.recommend_items(usercode, verbose=True)
         if isinstance(recommended_hotels, str):
             st.warning(recommended_hotels)
         else:
             st.table(recommended_hotels)
-
-if __name__ == '__main__':
-    main()

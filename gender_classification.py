@@ -1,12 +1,11 @@
-# classification.py
 import streamlit as st
-import pickle  # For model serialization
+import pickle
 import pandas as pd
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.preprocessing import LabelEncoder
 
-def main():
+def gender_classification_page():
     st.title("Gender Classification Model")
 
     # Initialize the SentenceTransformer model
@@ -83,6 +82,3 @@ def predict_price(input_data, lr_model, pca, scaler):
     y_pred = lr_model.predict(X)
 
     return y_pred[0]
-
-if __name__ == "__main__":
-    main()
