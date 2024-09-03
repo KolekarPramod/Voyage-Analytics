@@ -16,11 +16,13 @@ def gender_classification_page():
     pca_model = pickle.load(open("pca.pkl", 'rb'))
     logistic_model = pickle.load(open("tuned_logistic_regression_model.pkl", 'rb'))
 
-    # Form inputs
+    # Set default values for Usercode, Traveller Age, and Company Name (Because it doesn't contribute into prediction of gender.)
+    usercode = 0
+    traveller_age = 21
+    company_name = "Acme Factory"
+
+    # Only show the input for the username
     username = st.text_input("Username", "Charlotte Johnson")
-    usercode = st.number_input("Usercode", min_value=0.00, max_value=1339.00, step=1.00, format="%f")
-    traveller_age = st.number_input("Traveller Age", min_value=21, max_value=65, step=1)
-    company_name = st.selectbox("Company Name", ["Acme Factory", "Wonka Company", "Monsters CYA", "Umbrella LTDA", "4You"])
 
     if st.button("Predict"):
         # Create a dictionary to store the input data
@@ -82,3 +84,7 @@ def predict_price(input_data, lr_model, pca, scaler):
     y_pred = lr_model.predict(X)
 
     return y_pred[0]
+
+# Run the app
+if __name__ == '__main__':
+    gender_classification_page()
