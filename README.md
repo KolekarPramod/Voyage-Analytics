@@ -1,5 +1,5 @@
 <h1 align="center">Travel Analytics and Machine Learning</h1>
-<h3 align="center"> Capstone Project - Travel Data Analysis and Model Deployment </h3>
+<h3 align="center">Capstone Project - Travel Data Analysis and Model Deployment</h3>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -33,7 +33,21 @@ This project focuses on leveraging data analytics and machine learning to revolu
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
+## 🚀 Getting Started
 
+### Prerequisites
+Ensure you have the following installed on your system:
+- Python 3.8+
+- Git
+- Docker
+- Kubernetes (Minikube or any other K8s setup)
+- Apache Airflow
+- Jenkins
+- MLFlow
+- Streamlit
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
+### Clone the Repository
+To get started, clone the repository to your local machine:
+```bash
+git clone https://github.com/KolekarPramod/Voyage-Analytics.git
+cd Voyage-Analytics
