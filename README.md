@@ -52,3 +52,4 @@ To get started, clone the repository to your local machine:
 git clone https://github.com/KolekarPramod/Voyage-Analytics.git
 cd Voyage-Analytics
 pip install -r requirements.txt
+streamlit run app.py
