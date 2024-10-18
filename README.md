@@ -27,7 +27,7 @@ This project focuses on leveraging data analytics and machine learning to revolu
 - **Containerization:** Docker
 - **Orchestration:** Kubernetes
 - **Workflow Management:** Apache Airflow
-- **CI/CD:** Jenkins
+- **CI/CD:** Git Actions
 - **Model Tracking:** MLFlow
 - **Web Application:** Streamlit
 
