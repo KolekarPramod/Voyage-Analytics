@@ -23,7 +23,6 @@ This project focuses on leveraging data analytics and machine learning to revolu
 
 ## 🛠️ Technologies Used:
 - **Machine Learning:** Regression, Classification, Recommendation Systems
-- **APIs:** Flask
 - **Containerization:** Docker
 - **Orchestration:** Kubernetes
 - **Workflow Management:** Apache Airflow
