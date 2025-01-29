@@ -8,7 +8,7 @@ import random
 import warnings
 
 warnings.filterwarnings("ignore")
-
+# @st.cache_data
 def hotel_recommendation_page():
     st.title('Hotel Recommendation App')
 

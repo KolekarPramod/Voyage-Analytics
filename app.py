@@ -1,4 +1,3 @@
-# app.py
 import streamlit as st
 from gender_classification import gender_classification_page
 from hotel_recommendation import hotel_recommendation_page

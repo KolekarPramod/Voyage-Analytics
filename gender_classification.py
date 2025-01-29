@@ -42,7 +42,6 @@ def gender_classification_page():
             gender = 'male'
 
         st.success(f"Predicted gender: {gender}")
-
 def predict_price(input_data, lr_model, pca, scaler):
     # Prepare the input data
     text_columns = ['name']

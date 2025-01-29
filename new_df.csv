@@ -1,0 +1,491 @@
+from,to,flightType,price,time,distance,agency
+Recife (PE),Florianopolis (SC),firstClass,1434.38,1.76,676.53,FlyingDrops
+Florianopolis (SC),Recife (PE),firstClass,1292.29,1.76,676.53,FlyingDrops
+Brasilia (DF),Florianopolis (SC),firstClass,1487.52,1.66,637.56,CloudFy
+Florianopolis (SC),Brasilia (DF),firstClass,1127.36,1.66,637.56,CloudFy
+Aracaju (SE),Salvador (BH),firstClass,1684.05,2.16,830.86,CloudFy
+Salvador (BH),Aracaju (SE),firstClass,1531.92,2.16,830.86,CloudFy
+Aracaju (SE),Campo Grande (MS),economic,743.54,1.69,650.1,Rainbow
+Campo Grande (MS),Aracaju (SE),economic,877.56,1.69,650.1,Rainbow
+Recife (PE),Florianopolis (SC),economic,803.39,1.76,676.53,Rainbow
+Florianopolis (SC),Recife (PE),economic,695.3,1.76,676.53,Rainbow
+Brasilia (DF),Aracaju (SE),firstClass,1287.52,1.11,425.98,FlyingDrops
+Aracaju (SE),Brasilia (DF),firstClass,898.04,1.11,425.98,FlyingDrops
+Recife (PE),Florianopolis (SC),premium,1070.54,1.76,676.53,Rainbow
+Florianopolis (SC),Recife (PE),premium,1013.4,1.76,676.53,Rainbow
+Aracaju (SE),Salvador (BH),economic,964.83,2.16,830.86,CloudFy
+Salvador (BH),Aracaju (SE),economic,811.73,2.16,830.86,CloudFy
+Recife (PE),Sao Paulo (SP),economic,513.06,1.26,486.52,CloudFy
+Sao Paulo (SP),Recife (PE),economic,829.91,1.26,486.52,CloudFy
+Brasilia (DF),Campo Grande (MS),economic,583.6,0.72,277.7,CloudFy
+Campo Grande (MS),Brasilia (DF),economic,506.56,0.72,277.7,CloudFy
+Brasilia (DF),Sao Paulo (SP),firstClass,992.17,0.67,257.81,Rainbow
+Sao Paulo (SP),Brasilia (DF),firstClass,824.31,0.67,257.81,Rainbow
+Brasilia (DF),Salvador (BH),premium,1268.97,1.76,676.56,Rainbow
+Salvador (BH),Brasilia (DF),premium,882.86,1.76,676.56,Rainbow
+Brasilia (DF),Aracaju (SE),premium,965.62,1.11,425.98,Rainbow
+Aracaju (SE),Brasilia (DF),premium,706.36,1.11,425.98,Rainbow
+Brasilia (DF),Sao Paulo (SP),firstClass,893.65,0.67,257.81,CloudFy
+Sao Paulo (SP),Brasilia (DF),firstClass,742.94,0.67,257.81,CloudFy
+Recife (PE),Natal (RN),premium,474.6,0.58,222.67,CloudFy
+Natal (RN),Recife (PE),premium,563.23,0.58,222.67,CloudFy
+Aracaju (SE),Campo Grande (MS),premium,1021.53,1.69,650.1,CloudFy
+Campo Grande (MS),Aracaju (SE),premium,1215.45,1.69,650.1,CloudFy
+Recife (PE),Natal (RN),economic,301.51,0.58,222.67,CloudFy
+Natal (RN),Recife (PE),economic,429.77,0.58,222.67,CloudFy
+Brasilia (DF),Natal (RN),economic,791.66,1.43,550.69,CloudFy
+Natal (RN),Brasilia (DF),economic,697.51,1.43,550.69,CloudFy
+Recife (PE),Salvador (BH),firstClass,1596.61,2.05,788.55,FlyingDrops
+Salvador (BH),Recife (PE),firstClass,1348.04,2.05,788.55,FlyingDrops
+Recife (PE),Campo Grande (MS),firstClass,1069.12,1.39,535.4,Rainbow
+Campo Grande (MS),Recife (PE),firstClass,1185.95,1.39,535.4,Rainbow
+Brasilia (DF),Aracaju (SE),firstClass,1214.82,1.11,425.98,Rainbow
+Aracaju (SE),Brasilia (DF),firstClass,959.29,1.11,425.98,Rainbow
+Brasilia (DF),Recife (PE),premium,568.38,0.63,242.21,CloudFy
+Recife (PE),Brasilia (DF),premium,573.61,0.63,242.21,CloudFy
+Brasilia (DF),Florianopolis (SC),firstClass,1576.97,1.66,637.56,Rainbow
+Florianopolis (SC),Brasilia (DF),firstClass,1087.18,1.66,637.56,Rainbow
+Aracaju (SE),Sao Paulo (SP),economic,446.73,1.02,392.76,Rainbow
+Sao Paulo (SP),Aracaju (SE),economic,647.9,1.02,392.76,Rainbow
+Recife (PE),Salvador (BH),premium,1242.65,2.05,788.55,CloudFy
+Salvador (BH),Recife (PE),premium,1016.53,2.05,788.55,CloudFy
+Aracaju (SE),Natal (RN),premium,427.25,0.46,176.33,Rainbow
+Natal (RN),Aracaju (SE),premium,479.37,0.46,176.33,Rainbow
+Aracaju (SE),Recife (PE),economic,604.14,1.44,555.74,CloudFy
+Recife (PE),Aracaju (SE),economic,684.88,1.44,555.74,CloudFy
+Aracaju (SE),Rio de Janeiro (RJ),firstClass,1190.94,1.55,597.61,FlyingDrops
+Rio de Janeiro (RJ),Aracaju (SE),firstClass,1381.55,1.55,597.61,FlyingDrops
+Brasilia (DF),Salvador (BH),premium,1346.6,1.76,676.56,CloudFy
+Salvador (BH),Brasilia (DF),premium,836.89,1.76,676.56,CloudFy
+Aracaju (SE),Sao Paulo (SP),premium,630.34,1.02,392.76,CloudFy
+Sao Paulo (SP),Aracaju (SE),premium,906.59,1.02,392.76,CloudFy
+Recife (PE),Aracaju (SE),firstClass,1181.19,1.44,555.74,Rainbow
+Aracaju (SE),Recife (PE),firstClass,1119.47,1.44,555.74,Rainbow
+Aracaju (SE),Florianopolis (SC),firstClass,1499.93,2.1,808.85,FlyingDrops
+Florianopolis (SC),Aracaju (SE),firstClass,1574.28,2.1,808.85,FlyingDrops
+Brasilia (DF),Natal (RN),firstClass,1433.35,1.43,550.69,FlyingDrops
+Natal (RN),Brasilia (DF),firstClass,1192.62,1.43,550.69,FlyingDrops
+Brasilia (DF),Salvador (BH),economic,958.15,1.76,676.56,CloudFy
+Salvador (BH),Brasilia (DF),economic,587.85,1.76,676.56,CloudFy
+Brasilia (DF),Rio de Janeiro (RJ),economic,371.04,0.48,183.37,Rainbow
+Rio de Janeiro (RJ),Brasilia (DF),economic,364.34,0.48,183.37,Rainbow
+Recife (PE),Rio de Janeiro (RJ),firstClass,1706.89,2.3,885.57,FlyingDrops
+Rio de Janeiro (RJ),Recife (PE),firstClass,1702.23,2.3,885.57,FlyingDrops
+Recife (PE),Campo Grande (MS),premium,832.77,1.39,535.4,Rainbow
+Campo Grande (MS),Recife (PE),premium,991.22,1.39,535.4,Rainbow
+Recife (PE),Salvador (BH),firstClass,1484.94,2.05,788.55,CloudFy
+Salvador (BH),Recife (PE),firstClass,1440.02,2.05,788.55,CloudFy
+Aracaju (SE),Rio de Janeiro (RJ),firstClass,1183.57,1.55,597.61,CloudFy
+Rio de Janeiro (RJ),Aracaju (SE),firstClass,1446.4,1.55,597.61,CloudFy
+Brasilia (DF),Sao Paulo (SP),economic,533.8,0.67,257.81,Rainbow
+Sao Paulo (SP),Brasilia (DF),economic,393.84,0.67,257.81,Rainbow
+Brasilia (DF),Florianopolis (SC),economic,884.94,1.66,637.56,CloudFy
+Florianopolis (SC),Brasilia (DF),economic,636.51,1.66,637.56,CloudFy
+Brasilia (DF),Rio de Janeiro (RJ),premium,440.69,0.48,183.37,Rainbow
+Rio de Janeiro (RJ),Brasilia (DF),premium,435.67,0.48,183.37,Rainbow
+Aracaju (SE),Rio de Janeiro (RJ),premium,930.12,1.55,597.61,Rainbow
+Rio de Janeiro (RJ),Aracaju (SE),premium,1098.93,1.55,597.61,Rainbow
+Brasilia (DF),Florianopolis (SC),economic,889.07,1.66,637.56,Rainbow
+Florianopolis (SC),Brasilia (DF),economic,555.01,1.66,637.56,Rainbow
+Brasilia (DF),Campo Grande (MS),premium,831.7,0.72,277.7,CloudFy
+Campo Grande (MS),Brasilia (DF),premium,661.32,0.72,277.7,CloudFy
+Aracaju (SE),Sao Paulo (SP),firstClass,730.43,1.02,392.76,CloudFy
+Sao Paulo (SP),Aracaju (SE),firstClass,1186.15,1.02,392.76,CloudFy
+Recife (PE),Florianopolis (SC),firstClass,1371.83,1.76,676.53,Rainbow
+Florianopolis (SC),Recife (PE),firstClass,1175.62,1.76,676.53,Rainbow
+Recife (PE),Aracaju (SE),premium,932.84,1.44,555.74,CloudFy
+Aracaju (SE),Recife (PE),premium,835.21,1.44,555.74,CloudFy
+Brasilia (DF),Sao Paulo (SP),premium,698.1,0.67,257.81,CloudFy
+Sao Paulo (SP),Brasilia (DF),premium,602.12,0.67,257.81,CloudFy
+Aracaju (SE),Natal (RN),economic,332.1,0.46,176.33,CloudFy
+Natal (RN),Aracaju (SE),economic,361.68,0.46,176.33,CloudFy
+Brasilia (DF),Natal (RN),firstClass,1434.91,1.43,550.69,Rainbow
+Natal (RN),Brasilia (DF),firstClass,1286.63,1.43,550.69,Rainbow
+Aracaju (SE),Rio de Janeiro (RJ),economic,717.04,1.55,597.61,CloudFy
+Rio de Janeiro (RJ),Aracaju (SE),economic,796.42,1.55,597.61,CloudFy
+Recife (PE),Aracaju (SE),economic,663.23,1.44,555.74,Rainbow
+Aracaju (SE),Recife (PE),economic,602.49,1.44,555.74,Rainbow
+Recife (PE),Salvador (BH),firstClass,1470.41,2.05,788.55,Rainbow
+Salvador (BH),Recife (PE),firstClass,1440.25,2.05,788.55,Rainbow
+Recife (PE),Sao Paulo (SP),premium,670.13,1.26,486.52,Rainbow
+Sao Paulo (SP),Recife (PE),premium,1145.72,1.26,486.52,Rainbow
+Aracaju (SE),Sao Paulo (SP),firstClass,756.3,1.02,392.76,FlyingDrops
+Sao Paulo (SP),Aracaju (SE),firstClass,1269.73,1.02,392.76,FlyingDrops
+Brasilia (DF),Salvador (BH),firstClass,1724.49,1.76,676.56,FlyingDrops
+Salvador (BH),Brasilia (DF),firstClass,1020.08,1.76,676.56,FlyingDrops
+Brasilia (DF),Natal (RN),firstClass,1313.76,1.43,550.69,CloudFy
+Natal (RN),Brasilia (DF),firstClass,1300.53,1.43,550.69,CloudFy
+Recife (PE),Natal (RN),firstClass,669.83,0.58,222.67,CloudFy
+Natal (RN),Recife (PE),firstClass,744.11,0.58,222.67,CloudFy
+Brasilia (DF),Natal (RN),economic,726.19,1.43,550.69,Rainbow
+Natal (RN),Brasilia (DF),economic,686.79,1.43,550.69,Rainbow
+Brasilia (DF),Salvador (BH),firstClass,1665.24,1.76,676.56,Rainbow
+Salvador (BH),Brasilia (DF),firstClass,1040.84,1.76,676.56,Rainbow
+Recife (PE),Brasilia (DF),firstClass,721.93,0.63,242.21,Rainbow
+Brasilia (DF),Recife (PE),firstClass,772.21,0.63,242.21,Rainbow
+Aracaju (SE),Sao Paulo (SP),premium,588.14,1.02,392.76,Rainbow
+Sao Paulo (SP),Aracaju (SE),premium,962.54,1.02,392.76,Rainbow
+Brasilia (DF),Recife (PE),firstClass,804.24,0.63,242.21,CloudFy
+Recife (PE),Brasilia (DF),firstClass,709.25,0.63,242.21,CloudFy
+Recife (PE),Brasilia (DF),premium,638.63,0.63,242.21,Rainbow
+Brasilia (DF),Recife (PE),premium,559.13,0.63,242.21,Rainbow
+Recife (PE),Sao Paulo (SP),firstClass,883.63,1.26,486.52,CloudFy
+Sao Paulo (SP),Recife (PE),firstClass,1533.42,1.26,486.52,CloudFy
+Brasilia (DF),Rio de Janeiro (RJ),economic,344.26,0.48,183.37,CloudFy
+Rio de Janeiro (RJ),Brasilia (DF),economic,369.57,0.48,183.37,CloudFy
+Brasilia (DF),Salvador (BH),economic,921.08,1.76,676.56,Rainbow
+Salvador (BH),Brasilia (DF),economic,609.83,1.76,676.56,Rainbow
+Brasilia (DF),Aracaju (SE),economic,654.88,1.11,425.98,CloudFy
+Aracaju (SE),Brasilia (DF),economic,472.72,1.11,425.98,CloudFy
+Aracaju (SE),Campo Grande (MS),firstClass,1389.37,1.69,650.1,CloudFy
+Campo Grande (MS),Aracaju (SE),firstClass,1581.8,1.69,650.1,CloudFy
+Aracaju (SE),Brasilia (DF),economic,548.62,1.11,425.98,Rainbow
+Brasilia (DF),Aracaju (SE),economic,721.2,1.11,425.98,Rainbow
+Recife (PE),Rio de Janeiro (RJ),firstClass,1611.14,2.3,885.57,Rainbow
+Rio de Janeiro (RJ),Recife (PE),firstClass,1617.81,2.3,885.57,Rainbow
+Aracaju (SE),Salvador (BH),firstClass,1723.71,2.16,830.86,Rainbow
+Salvador (BH),Aracaju (SE),firstClass,1520.02,2.16,830.86,Rainbow
+Brasilia (DF),Florianopolis (SC),premium,1222.24,1.66,637.56,Rainbow
+Florianopolis (SC),Brasilia (DF),premium,814.55,1.66,637.56,Rainbow
+Aracaju (SE),Florianopolis (SC),premium,1174.97,2.1,808.85,CloudFy
+Florianopolis (SC),Aracaju (SE),premium,1149.53,2.1,808.85,CloudFy
+Recife (PE),Campo Grande (MS),premium,793.15,1.39,535.4,CloudFy
+Campo Grande (MS),Recife (PE),premium,959.91,1.39,535.4,CloudFy
+Brasilia (DF),Rio de Janeiro (RJ),firstClass,586.04,0.48,183.37,Rainbow
+Rio de Janeiro (RJ),Brasilia (DF),firstClass,687.25,0.48,183.37,Rainbow
+Recife (PE),Salvador (BH),premium,1249.83,2.05,788.55,Rainbow
+Salvador (BH),Recife (PE),premium,1103.23,2.05,788.55,Rainbow
+Aracaju (SE),Natal (RN),firstClass,598.61,0.46,176.33,CloudFy
+Natal (RN),Aracaju (SE),firstClass,576.66,0.46,176.33,CloudFy
+Aracaju (SE),Recife (PE),firstClass,1088.87,1.44,555.74,FlyingDrops
+Recife (PE),Aracaju (SE),firstClass,1300.81,1.44,555.74,FlyingDrops
+Recife (PE),Rio de Janeiro (RJ),economic,910.7,2.3,885.57,CloudFy
+Rio de Janeiro (RJ),Recife (PE),economic,952.83,2.3,885.57,CloudFy
+Aracaju (SE),Florianopolis (SC),premium,1132.81,2.1,808.85,Rainbow
+Florianopolis (SC),Aracaju (SE),premium,1248.7,2.1,808.85,Rainbow
+Aracaju (SE),Rio de Janeiro (RJ),economic,712.64,1.55,597.61,Rainbow
+Rio de Janeiro (RJ),Aracaju (SE),economic,734.09,1.55,597.61,Rainbow
+Brasilia (DF),Natal (RN),premium,1067.3,1.43,550.69,CloudFy
+Natal (RN),Brasilia (DF),premium,898.46,1.43,550.69,CloudFy
+Brasilia (DF),Salvador (BH),firstClass,1685.23,1.76,676.56,CloudFy
+Salvador (BH),Brasilia (DF),firstClass,1032.4,1.76,676.56,CloudFy
+Brasilia (DF),Florianopolis (SC),premium,1189.32,1.66,637.56,CloudFy
+Florianopolis (SC),Brasilia (DF),premium,885.37,1.66,637.56,CloudFy
+Aracaju (SE),Florianopolis (SC),economic,852.18,2.1,808.85,Rainbow
+Florianopolis (SC),Aracaju (SE),economic,819.41,2.1,808.85,Rainbow
+Recife (PE),Natal (RN),firstClass,628.96,0.58,222.67,Rainbow
+Natal (RN),Recife (PE),firstClass,806.91,0.58,222.67,Rainbow
+Recife (PE),Brasilia (DF),firstClass,697.22,0.63,242.21,FlyingDrops
+Brasilia (DF),Recife (PE),firstClass,691.39,0.63,242.21,FlyingDrops
+Aracaju (SE),Campo Grande (MS),firstClass,1387.89,1.69,650.1,Rainbow
+Campo Grande (MS),Aracaju (SE),firstClass,1545.78,1.69,650.1,Rainbow
+Recife (PE),Campo Grande (MS),economic,563.71,1.39,535.4,CloudFy
+Campo Grande (MS),Recife (PE),economic,659.43,1.39,535.4,CloudFy
+Recife (PE),Rio de Janeiro (RJ),premium,1351.89,2.3,885.57,Rainbow
+Rio de Janeiro (RJ),Recife (PE),premium,1306.26,2.3,885.57,Rainbow
+Recife (PE),Florianopolis (SC),firstClass,1354.53,1.76,676.53,CloudFy
+Florianopolis (SC),Recife (PE),firstClass,1300.6,1.76,676.53,CloudFy
+Aracaju (SE),Salvador (BH),economic,943.36,2.16,830.86,Rainbow
+Salvador (BH),Aracaju (SE),economic,826.02,2.16,830.86,Rainbow
+Recife (PE),Natal (RN),firstClass,633.71,0.58,222.67,FlyingDrops
+Natal (RN),Recife (PE),firstClass,694.42,0.58,222.67,FlyingDrops
+Brasilia (DF),Sao Paulo (SP),firstClass,904.0,0.67,257.81,FlyingDrops
+Sao Paulo (SP),Brasilia (DF),firstClass,727.31,0.67,257.81,FlyingDrops
+Recife (PE),Natal (RN),economic,360.22,0.58,222.67,Rainbow
+Natal (RN),Recife (PE),economic,406.36,0.58,222.67,Rainbow
+Aracaju (SE),Campo Grande (MS),premium,1116.83,1.69,650.1,Rainbow
+Campo Grande (MS),Aracaju (SE),premium,1146.95,1.69,650.1,Rainbow
+Recife (PE),Rio de Janeiro (RJ),premium,1270.03,2.3,885.57,CloudFy
+Rio de Janeiro (RJ),Recife (PE),premium,1333.52,2.3,885.57,CloudFy
+Brasilia (DF),Sao Paulo (SP),premium,750.0,0.67,257.81,Rainbow
+Sao Paulo (SP),Brasilia (DF),premium,586.06,0.67,257.81,Rainbow
+Recife (PE),Campo Grande (MS),firstClass,1110.76,1.39,535.4,CloudFy
+Campo Grande (MS),Recife (PE),firstClass,1244.73,1.39,535.4,CloudFy
+Recife (PE),Rio de Janeiro (RJ),economic,908.93,2.3,885.57,Rainbow
+Rio de Janeiro (RJ),Recife (PE),economic,932.59,2.3,885.57,Rainbow
+Aracaju (SE),Florianopolis (SC),firstClass,1582.41,2.1,808.85,Rainbow
+Florianopolis (SC),Aracaju (SE),firstClass,1582.1,2.1,808.85,Rainbow
+Aracaju (SE),Brasilia (DF),premium,755.62,1.11,425.98,CloudFy
+Brasilia (DF),Aracaju (SE),premium,987.07,1.11,425.98,CloudFy
+Aracaju (SE),Salvador (BH),premium,1288.79,2.16,830.86,CloudFy
+Salvador (BH),Aracaju (SE),premium,1209.04,2.16,830.86,CloudFy
+Brasilia (DF),Rio de Janeiro (RJ),firstClass,539.39,0.48,183.37,FlyingDrops
+Rio de Janeiro (RJ),Brasilia (DF),firstClass,591.19,0.48,183.37,FlyingDrops
+Aracaju (SE),Brasilia (DF),firstClass,957.68,1.11,425.98,CloudFy
+Brasilia (DF),Aracaju (SE),firstClass,1260.1,1.11,425.98,CloudFy
+Brasilia (DF),Recife (PE),economic,421.2,0.63,242.21,Rainbow
+Recife (PE),Brasilia (DF),economic,439.38,0.63,242.21,Rainbow
+Aracaju (SE),Rio de Janeiro (RJ),firstClass,1189.86,1.55,597.61,Rainbow
+Rio de Janeiro (RJ),Aracaju (SE),firstClass,1386.46,1.55,597.61,Rainbow
+Recife (PE),Aracaju (SE),firstClass,1166.1,1.44,555.74,CloudFy
+Aracaju (SE),Recife (PE),firstClass,1124.11,1.44,555.74,CloudFy
+Brasilia (DF),Rio de Janeiro (RJ),premium,457.95,0.48,183.37,CloudFy
+Rio de Janeiro (RJ),Brasilia (DF),premium,503.26,0.48,183.37,CloudFy
+Brasilia (DF),Campo Grande (MS),economic,629.54,0.72,277.7,Rainbow
+Campo Grande (MS),Brasilia (DF),economic,517.82,0.72,277.7,Rainbow
+Brasilia (DF),Florianopolis (SC),firstClass,1569.65,1.66,637.56,FlyingDrops
+Florianopolis (SC),Brasilia (DF),firstClass,1097.17,1.66,637.56,FlyingDrops
+Recife (PE),Florianopolis (SC),premium,1074.75,1.76,676.53,CloudFy
+Florianopolis (SC),Recife (PE),premium,918.66,1.76,676.53,CloudFy
+Brasilia (DF),Recife (PE),economic,432.1,0.63,242.21,CloudFy
+Recife (PE),Brasilia (DF),economic,393.68,0.63,242.21,CloudFy
+Recife (PE),Florianopolis (SC),economic,761.2,1.76,676.53,CloudFy
+Florianopolis (SC),Recife (PE),economic,674.52,1.76,676.53,CloudFy
+Brasilia (DF),Campo Grande (MS),premium,851.15,0.72,277.7,Rainbow
+Campo Grande (MS),Brasilia (DF),premium,691.99,0.72,277.7,Rainbow
+Aracaju (SE),Salvador (BH),premium,1289.05,2.16,830.86,Rainbow
+Salvador (BH),Aracaju (SE),premium,1247.02,2.16,830.86,Rainbow
+Recife (PE),Sao Paulo (SP),firstClass,980.83,1.26,486.52,Rainbow
+Sao Paulo (SP),Recife (PE),firstClass,1573.5,1.26,486.52,Rainbow
+Aracaju (SE),Florianopolis (SC),economic,869.13,2.1,808.85,CloudFy
+Florianopolis (SC),Aracaju (SE),economic,879.1,2.1,808.85,CloudFy
+Aracaju (SE),Natal (RN),premium,535.95,0.46,176.33,CloudFy
+Natal (RN),Aracaju (SE),premium,451.41,0.46,176.33,CloudFy
+Recife (PE),Rio de Janeiro (RJ),firstClass,1612.39,2.3,885.57,CloudFy
+Rio de Janeiro (RJ),Recife (PE),firstClass,1664.01,2.3,885.57,CloudFy
+Aracaju (SE),Sao Paulo (SP),economic,410.79,1.02,392.76,CloudFy
+Sao Paulo (SP),Aracaju (SE),economic,722.74,1.02,392.76,CloudFy
+Recife (PE),Campo Grande (MS),economic,615.59,1.39,535.4,Rainbow
+Campo Grande (MS),Recife (PE),economic,674.16,1.39,535.4,Rainbow
+Recife (PE),Salvador (BH),economic,861.68,2.05,788.55,Rainbow
+Salvador (BH),Recife (PE),economic,751.37,2.05,788.55,Rainbow
+Brasilia (DF),Rio de Janeiro (RJ),firstClass,649.64,0.48,183.37,CloudFy
+Rio de Janeiro (RJ),Brasilia (DF),firstClass,688.06,0.48,183.37,CloudFy
+Brasilia (DF),Sao Paulo (SP),economic,538.95,0.67,257.81,CloudFy
+Sao Paulo (SP),Brasilia (DF),economic,389.47,0.67,257.81,CloudFy
+Recife (PE),Sao Paulo (SP),firstClass,954.78,1.26,486.52,FlyingDrops
+Sao Paulo (SP),Recife (PE),firstClass,1464.89,1.26,486.52,FlyingDrops
+Aracaju (SE),Campo Grande (MS),firstClass,1376.09,1.69,650.1,FlyingDrops
+Campo Grande (MS),Aracaju (SE),firstClass,1473.41,1.69,650.1,FlyingDrops
+Recife (PE),Campo Grande (MS),firstClass,1038.95,1.39,535.4,FlyingDrops
+Campo Grande (MS),Recife (PE),firstClass,1262.23,1.39,535.4,FlyingDrops
+Brasilia (DF),Campo Grande (MS),firstClass,1009.71,0.72,277.7,FlyingDrops
+Campo Grande (MS),Brasilia (DF),firstClass,847.83,0.72,277.7,FlyingDrops
+Brasilia (DF),Campo Grande (MS),firstClass,1096.58,0.72,277.7,CloudFy
+Campo Grande (MS),Brasilia (DF),firstClass,949.99,0.72,277.7,CloudFy
+Recife (PE),Aracaju (SE),premium,932.22,1.44,555.74,Rainbow
+Aracaju (SE),Recife (PE),premium,875.41,1.44,555.74,Rainbow
+Recife (PE),Sao Paulo (SP),economic,545.95,1.26,486.52,Rainbow
+Sao Paulo (SP),Recife (PE),economic,827.12,1.26,486.52,Rainbow
+Recife (PE),Natal (RN),premium,488.73,0.58,222.67,Rainbow
+Natal (RN),Recife (PE),premium,579.62,0.58,222.67,Rainbow
+Brasilia (DF),Natal (RN),premium,1107.52,1.43,550.69,Rainbow
+Natal (RN),Brasilia (DF),premium,919.89,1.43,550.69,Rainbow
+Recife (PE),Salvador (BH),economic,842.11,2.05,788.55,CloudFy
+Salvador (BH),Recife (PE),economic,767.27,2.05,788.55,CloudFy
+Aracaju (SE),Natal (RN),economic,380.32,0.46,176.33,Rainbow
+Natal (RN),Aracaju (SE),economic,301.61,0.46,176.33,Rainbow
+Aracaju (SE),Florianopolis (SC),firstClass,1515.79,2.1,808.85,CloudFy
+Florianopolis (SC),Aracaju (SE),firstClass,1468.03,2.1,808.85,CloudFy
+Aracaju (SE),Salvador (BH),firstClass,1714.75,2.16,830.86,FlyingDrops
+Salvador (BH),Aracaju (SE),firstClass,1581.59,2.16,830.86,FlyingDrops
+Aracaju (SE),Natal (RN),firstClass,549.96,0.46,176.33,Rainbow
+Natal (RN),Aracaju (SE),firstClass,611.4,0.46,176.33,Rainbow
+Aracaju (SE),Sao Paulo (SP),firstClass,752.27,1.02,392.76,Rainbow
+Sao Paulo (SP),Aracaju (SE),firstClass,1159.84,1.02,392.76,Rainbow
+Aracaju (SE),Natal (RN),firstClass,577.71,0.46,176.33,FlyingDrops
+Natal (RN),Aracaju (SE),firstClass,611.59,0.46,176.33,FlyingDrops
+Recife (PE),Sao Paulo (SP),premium,657.87,1.26,486.52,CloudFy
+Sao Paulo (SP),Recife (PE),premium,1195.26,1.26,486.52,CloudFy
+Aracaju (SE),Rio de Janeiro (RJ),premium,1007.72,1.55,597.61,CloudFy
+Rio de Janeiro (RJ),Aracaju (SE),premium,1091.21,1.55,597.61,CloudFy
+Aracaju (SE),Campo Grande (MS),economic,750.92,1.69,650.1,CloudFy
+Campo Grande (MS),Aracaju (SE),economic,886.9,1.69,650.1,CloudFy
+Brasilia (DF),Campo Grande (MS),firstClass,1069.61,0.72,277.7,Rainbow
+Campo Grande (MS),Brasilia (DF),firstClass,870.91,0.72,277.7,Rainbow
+Campo Grande (MS),Florianopolis (SC),premium,1030.13,1.49,573.81,Rainbow
+Florianopolis (SC),Campo Grande (MS),premium,714.86,1.49,573.81,Rainbow
+Campo Grande (MS),Salvador (BH),firstClass,1149.38,1.36,522.34,CloudFy
+Salvador (BH),Campo Grande (MS),firstClass,904.66,1.36,522.34,CloudFy
+Campo Grande (MS),Sao Paulo (SP),premium,536.98,0.44,168.22,CloudFy
+Sao Paulo (SP),Campo Grande (MS),premium,447.53,0.44,168.22,CloudFy
+Campo Grande (MS),Sao Paulo (SP),firstClass,684.65,0.44,168.22,FlyingDrops
+Sao Paulo (SP),Campo Grande (MS),firstClass,668.19,0.44,168.22,FlyingDrops
+Campo Grande (MS),Salvador (BH),premium,834.61,1.36,522.34,Rainbow
+Salvador (BH),Campo Grande (MS),premium,774.52,1.36,522.34,Rainbow
+Campo Grande (MS),Florianopolis (SC),economic,764.53,1.49,573.81,Rainbow
+Florianopolis (SC),Campo Grande (MS),economic,544.86,1.49,573.81,Rainbow
+Campo Grande (MS),Natal (RN),firstClass,778.01,0.65,250.68,Rainbow
+Natal (RN),Campo Grande (MS),firstClass,855.82,0.65,250.68,Rainbow
+Campo Grande (MS),Florianopolis (SC),firstClass,1446.34,1.49,573.81,CloudFy
+Florianopolis (SC),Campo Grande (MS),firstClass,949.58,1.49,573.81,CloudFy
+Campo Grande (MS),Sao Paulo (SP),premium,441.34,0.44,168.22,Rainbow
+Sao Paulo (SP),Campo Grande (MS),premium,438.74,0.44,168.22,Rainbow
+Campo Grande (MS),Natal (RN),firstClass,749.85,0.65,250.68,FlyingDrops
+Natal (RN),Campo Grande (MS),firstClass,979.56,0.65,250.68,FlyingDrops
+Campo Grande (MS),Florianopolis (SC),firstClass,1341.21,1.49,573.81,Rainbow
+Florianopolis (SC),Campo Grande (MS),firstClass,857.32,1.49,573.81,Rainbow
+Campo Grande (MS),Rio de Janeiro (RJ),firstClass,1609.81,2.09,806.48,FlyingDrops
+Rio de Janeiro (RJ),Campo Grande (MS),firstClass,1566.26,2.09,806.48,FlyingDrops
+Campo Grande (MS),Salvador (BH),economic,621.36,1.36,522.34,CloudFy
+Salvador (BH),Campo Grande (MS),economic,534.41,1.36,522.34,CloudFy
+Campo Grande (MS),Rio de Janeiro (RJ),firstClass,1754.17,2.09,806.48,Rainbow
+Rio de Janeiro (RJ),Campo Grande (MS),firstClass,1518.88,2.09,806.48,Rainbow
+Campo Grande (MS),Natal (RN),economic,411.05,0.65,250.68,Rainbow
+Natal (RN),Campo Grande (MS),economic,470.16,0.65,250.68,Rainbow
+Campo Grande (MS),Rio de Janeiro (RJ),economic,946.55,2.09,806.48,Rainbow
+Rio de Janeiro (RJ),Campo Grande (MS),economic,849.52,2.09,806.48,Rainbow
+Campo Grande (MS),Sao Paulo (SP),economic,375.51,0.44,168.22,CloudFy
+Sao Paulo (SP),Campo Grande (MS),economic,335.16,0.44,168.22,CloudFy
+Campo Grande (MS),Natal (RN),premium,652.47,0.65,250.68,CloudFy
+Natal (RN),Campo Grande (MS),premium,748.52,0.65,250.68,CloudFy
+Campo Grande (MS),Salvador (BH),firstClass,1052.6,1.36,522.34,FlyingDrops
+Salvador (BH),Campo Grande (MS),firstClass,980.4,1.36,522.34,FlyingDrops
+Campo Grande (MS),Rio de Janeiro (RJ),firstClass,1614.7,2.09,806.48,CloudFy
+Rio de Janeiro (RJ),Campo Grande (MS),firstClass,1512.09,2.09,806.48,CloudFy
+Campo Grande (MS),Natal (RN),firstClass,732.89,0.65,250.68,CloudFy
+Natal (RN),Campo Grande (MS),firstClass,953.32,0.65,250.68,CloudFy
+Campo Grande (MS),Rio de Janeiro (RJ),premium,1328.88,2.09,806.48,Rainbow
+Rio de Janeiro (RJ),Campo Grande (MS),premium,1219.71,2.09,806.48,Rainbow
+Campo Grande (MS),Salvador (BH),economic,615.26,1.36,522.34,Rainbow
+Salvador (BH),Campo Grande (MS),economic,494.29,1.36,522.34,Rainbow
+Campo Grande (MS),Florianopolis (SC),firstClass,1310.32,1.49,573.81,FlyingDrops
+Florianopolis (SC),Campo Grande (MS),firstClass,930.34,1.49,573.81,FlyingDrops
+Campo Grande (MS),Natal (RN),premium,541.59,0.65,250.68,Rainbow
+Natal (RN),Campo Grande (MS),premium,660.25,0.65,250.68,Rainbow
+Campo Grande (MS),Salvador (BH),firstClass,1114.75,1.36,522.34,Rainbow
+Salvador (BH),Campo Grande (MS),firstClass,961.85,1.36,522.34,Rainbow
+Campo Grande (MS),Sao Paulo (SP),firstClass,644.16,0.44,168.22,Rainbow
+Sao Paulo (SP),Campo Grande (MS),firstClass,595.09,0.44,168.22,Rainbow
+Campo Grande (MS),Florianopolis (SC),premium,1031.59,1.49,573.81,CloudFy
+Florianopolis (SC),Campo Grande (MS),premium,697.65,1.49,573.81,CloudFy
+Campo Grande (MS),Florianopolis (SC),economic,808.63,1.49,573.81,CloudFy
+Florianopolis (SC),Campo Grande (MS),economic,478.02,1.49,573.81,CloudFy
+Campo Grande (MS),Natal (RN),economic,467.6,0.65,250.68,CloudFy
+Natal (RN),Campo Grande (MS),economic,546.04,0.65,250.68,CloudFy
+Campo Grande (MS),Sao Paulo (SP),economic,381.83,0.44,168.22,Rainbow
+Sao Paulo (SP),Campo Grande (MS),economic,367.22,0.44,168.22,Rainbow
+Campo Grande (MS),Salvador (BH),premium,826.72,1.36,522.34,CloudFy
+Salvador (BH),Campo Grande (MS),premium,684.85,1.36,522.34,CloudFy
+Campo Grande (MS),Rio de Janeiro (RJ),economic,972.12,2.09,806.48,CloudFy
+Rio de Janeiro (RJ),Campo Grande (MS),economic,882.99,2.09,806.48,CloudFy
+Campo Grande (MS),Sao Paulo (SP),firstClass,620.16,0.44,168.22,CloudFy
+Sao Paulo (SP),Campo Grande (MS),firstClass,563.0,0.44,168.22,CloudFy
+Campo Grande (MS),Rio de Janeiro (RJ),premium,1363.27,2.09,806.48,CloudFy
+Rio de Janeiro (RJ),Campo Grande (MS),premium,1139.93,2.09,806.48,CloudFy
+Natal (RN),Rio de Janeiro (RJ),economic,755.71,1.55,595.03,Rainbow
+Rio de Janeiro (RJ),Natal (RN),economic,670.29,1.55,595.03,Rainbow
+Sao Paulo (SP),Salvador (BH),economic,743.6,1.04,401.66,Rainbow
+Salvador (BH),Sao Paulo (SP),economic,381.39,1.04,401.66,Rainbow
+Sao Paulo (SP),Natal (RN),firstClass,946.36,0.85,327.55,CloudFy
+Natal (RN),Sao Paulo (SP),firstClass,1020.42,0.85,327.55,CloudFy
+Sao Paulo (SP),Rio de Janeiro (RJ),economic,625.5,0.86,331.89,Rainbow
+Rio de Janeiro (RJ),Sao Paulo (SP),economic,452.56,0.86,331.89,Rainbow
+Natal (RN),Sao Paulo (SP),firstClass,1148.78,0.85,327.55,Rainbow
+Sao Paulo (SP),Natal (RN),firstClass,932.87,0.85,327.55,Rainbow
+Sao Paulo (SP),Florianopolis (SC),premium,1370.17,1.46,562.14,CloudFy
+Florianopolis (SC),Sao Paulo (SP),premium,554.87,1.46,562.14,CloudFy
+Natal (RN),Rio de Janeiro (RJ),economic,774.57,1.55,595.03,CloudFy
+Rio de Janeiro (RJ),Natal (RN),economic,677.1,1.55,595.03,CloudFy
+Sao Paulo (SP),Natal (RN),economic,488.57,0.85,327.55,CloudFy
+Natal (RN),Sao Paulo (SP),economic,623.33,0.85,327.55,CloudFy
+Sao Paulo (SP),Natal (RN),economic,530.03,0.85,327.55,Rainbow
+Natal (RN),Sao Paulo (SP),economic,583.17,0.85,327.55,Rainbow
+Sao Paulo (SP),Salvador (BH),firstClass,1400.35,1.04,401.66,Rainbow
+Salvador (BH),Sao Paulo (SP),firstClass,667.0,1.04,401.66,Rainbow
+Sao Paulo (SP),Florianopolis (SC),premium,1367.6,1.46,562.14,Rainbow
+Florianopolis (SC),Sao Paulo (SP),premium,577.76,1.46,562.14,Rainbow
+Natal (RN),Salvador (BH),firstClass,1747.31,1.85,710.57,CloudFy
+Salvador (BH),Natal (RN),firstClass,1218.63,1.85,710.57,CloudFy
+Natal (RN),Florianopolis (SC),premium,1212.58,1.84,709.37,Rainbow
+Florianopolis (SC),Natal (RN),premium,1114.55,1.84,709.37,Rainbow
+Natal (RN),Salvador (BH),premium,1315.97,1.85,710.57,Rainbow
+Salvador (BH),Natal (RN),premium,1001.42,1.85,710.57,Rainbow
+Sao Paulo (SP),Florianopolis (SC),firstClass,1684.14,1.46,562.14,CloudFy
+Florianopolis (SC),Sao Paulo (SP),firstClass,693.51,1.46,562.14,CloudFy
+Natal (RN),Florianopolis (SC),firstClass,1570.02,1.84,709.37,CloudFy
+Florianopolis (SC),Natal (RN),firstClass,1315.27,1.84,709.37,CloudFy
+Natal (RN),Sao Paulo (SP),premium,863.8,0.85,327.55,CloudFy
+Sao Paulo (SP),Natal (RN),premium,719.91,0.85,327.55,CloudFy
+Sao Paulo (SP),Florianopolis (SC),firstClass,1666.23,1.46,562.14,FlyingDrops
+Florianopolis (SC),Sao Paulo (SP),firstClass,762.89,1.46,562.14,FlyingDrops
+Sao Paulo (SP),Rio de Janeiro (RJ),premium,861.9,0.86,331.89,Rainbow
+Rio de Janeiro (RJ),Sao Paulo (SP),premium,612.87,0.86,331.89,Rainbow
+Natal (RN),Salvador (BH),economic,922.87,1.85,710.57,CloudFy
+Salvador (BH),Natal (RN),economic,659.8,1.85,710.57,CloudFy
+Sao Paulo (SP),Rio de Janeiro (RJ),firstClass,1041.65,0.86,331.89,FlyingDrops
+Rio de Janeiro (RJ),Sao Paulo (SP),firstClass,753.78,0.86,331.89,FlyingDrops
+Natal (RN),Salvador (BH),firstClass,1641.56,1.85,710.57,Rainbow
+Salvador (BH),Natal (RN),firstClass,1195.57,1.85,710.57,Rainbow
+Natal (RN),Florianopolis (SC),premium,1165.99,1.84,709.37,CloudFy
+Florianopolis (SC),Natal (RN),premium,1128.51,1.84,709.37,CloudFy
+Natal (RN),Rio de Janeiro (RJ),premium,1100.85,1.55,595.03,Rainbow
+Rio de Janeiro (RJ),Natal (RN),premium,991.04,1.55,595.03,Rainbow
+Sao Paulo (SP),Salvador (BH),economic,793.27,1.04,401.66,CloudFy
+Salvador (BH),Sao Paulo (SP),economic,358.62,1.04,401.66,CloudFy
+Sao Paulo (SP),Salvador (BH),premium,1114.09,1.04,401.66,Rainbow
+Salvador (BH),Sao Paulo (SP),premium,513.47,1.04,401.66,Rainbow
+Sao Paulo (SP),Florianopolis (SC),economic,908.17,1.46,562.14,Rainbow
+Florianopolis (SC),Sao Paulo (SP),economic,427.0,1.46,562.14,Rainbow
+Sao Paulo (SP),Natal (RN),firstClass,943.18,0.85,327.55,FlyingDrops
+Natal (RN),Sao Paulo (SP),firstClass,1142.29,0.85,327.55,FlyingDrops
+Natal (RN),Florianopolis (SC),firstClass,1554.92,1.84,709.37,Rainbow
+Florianopolis (SC),Natal (RN),firstClass,1385.49,1.84,709.37,Rainbow
+Natal (RN),Florianopolis (SC),economic,884.4,1.84,709.37,Rainbow
+Florianopolis (SC),Natal (RN),economic,780.68,1.84,709.37,Rainbow
+Sao Paulo (SP),Natal (RN),premium,701.29,0.85,327.55,Rainbow
+Natal (RN),Sao Paulo (SP),premium,879.87,0.85,327.55,Rainbow
+Sao Paulo (SP),Rio de Janeiro (RJ),premium,846.03,0.86,331.89,CloudFy
+Rio de Janeiro (RJ),Sao Paulo (SP),premium,645.44,0.86,331.89,CloudFy
+Natal (RN),Salvador (BH),economic,959.79,1.85,710.57,Rainbow
+Salvador (BH),Natal (RN),economic,690.89,1.85,710.57,Rainbow
+Natal (RN),Rio de Janeiro (RJ),firstClass,1314.05,1.55,595.03,Rainbow
+Rio de Janeiro (RJ),Natal (RN),firstClass,1194.15,1.55,595.03,Rainbow
+Sao Paulo (SP),Salvador (BH),firstClass,1306.8,1.04,401.66,CloudFy
+Salvador (BH),Sao Paulo (SP),firstClass,590.98,1.04,401.66,CloudFy
+Sao Paulo (SP),Rio de Janeiro (RJ),firstClass,1092.94,0.86,331.89,CloudFy
+Rio de Janeiro (RJ),Sao Paulo (SP),firstClass,701.43,0.86,331.89,CloudFy
+Natal (RN),Rio de Janeiro (RJ),firstClass,1375.48,1.55,595.03,FlyingDrops
+Rio de Janeiro (RJ),Natal (RN),firstClass,1187.1,1.55,595.03,FlyingDrops
+Sao Paulo (SP),Florianopolis (SC),firstClass,1718.28,1.46,562.14,Rainbow
+Florianopolis (SC),Sao Paulo (SP),firstClass,738.8,1.46,562.14,Rainbow
+Sao Paulo (SP),Florianopolis (SC),economic,947.95,1.46,562.14,CloudFy
+Florianopolis (SC),Sao Paulo (SP),economic,426.91,1.46,562.14,CloudFy
+Sao Paulo (SP),Rio de Janeiro (RJ),economic,593.13,0.86,331.89,CloudFy
+Rio de Janeiro (RJ),Sao Paulo (SP),economic,446.75,0.86,331.89,CloudFy
+Sao Paulo (SP),Salvador (BH),firstClass,1427.22,1.04,401.66,FlyingDrops
+Salvador (BH),Sao Paulo (SP),firstClass,676.46,1.04,401.66,FlyingDrops
+Natal (RN),Salvador (BH),premium,1289.31,1.85,710.57,CloudFy
+Salvador (BH),Natal (RN),premium,970.32,1.85,710.57,CloudFy
+Natal (RN),Florianopolis (SC),economic,873.07,1.84,709.37,CloudFy
+Florianopolis (SC),Natal (RN),economic,726.95,1.84,709.37,CloudFy
+Natal (RN),Rio de Janeiro (RJ),premium,1102.93,1.55,595.03,CloudFy
+Rio de Janeiro (RJ),Natal (RN),premium,998.18,1.55,595.03,CloudFy
+Sao Paulo (SP),Salvador (BH),premium,1118.61,1.04,401.66,CloudFy
+Salvador (BH),Sao Paulo (SP),premium,531.49,1.04,401.66,CloudFy
+Natal (RN),Florianopolis (SC),firstClass,1540.6,1.84,709.37,FlyingDrops
+Florianopolis (SC),Natal (RN),firstClass,1348.79,1.84,709.37,FlyingDrops
+Natal (RN),Rio de Janeiro (RJ),firstClass,1391.6,1.55,595.03,CloudFy
+Rio de Janeiro (RJ),Natal (RN),firstClass,1297.49,1.55,595.03,CloudFy
+Sao Paulo (SP),Rio de Janeiro (RJ),firstClass,1016.89,0.86,331.89,Rainbow
+Rio de Janeiro (RJ),Sao Paulo (SP),firstClass,714.13,0.86,331.89,Rainbow
+Natal (RN),Salvador (BH),firstClass,1744.87,1.85,710.57,FlyingDrops
+Salvador (BH),Natal (RN),firstClass,1241.04,1.85,710.57,FlyingDrops
+Florianopolis (SC),Rio de Janeiro (RJ),firstClass,549.55,1.21,466.3,Rainbow
+Rio de Janeiro (RJ),Florianopolis (SC),firstClass,941.27,1.21,466.3,Rainbow
+Florianopolis (SC),Rio de Janeiro (RJ),firstClass,624.89,1.21,466.3,FlyingDrops
+Rio de Janeiro (RJ),Florianopolis (SC),firstClass,961.99,1.21,466.3,FlyingDrops
+Florianopolis (SC),Salvador (BH),economic,898.67,2.44,937.77,CloudFy
+Salvador (BH),Florianopolis (SC),economic,943.15,2.44,937.77,CloudFy
+Florianopolis (SC),Rio de Janeiro (RJ),economic,313.62,1.21,466.3,CloudFy
+Rio de Janeiro (RJ),Florianopolis (SC),economic,533.69,1.21,466.3,CloudFy
+Florianopolis (SC),Salvador (BH),firstClass,1630.75,2.44,937.77,Rainbow
+Salvador (BH),Florianopolis (SC),firstClass,1654.09,2.44,937.77,Rainbow
+Florianopolis (SC),Rio de Janeiro (RJ),firstClass,585.77,1.21,466.3,CloudFy
+Rio de Janeiro (RJ),Florianopolis (SC),firstClass,875.65,1.21,466.3,CloudFy
+Florianopolis (SC),Rio de Janeiro (RJ),premium,469.92,1.21,466.3,CloudFy
+Rio de Janeiro (RJ),Florianopolis (SC),premium,708.27,1.21,466.3,CloudFy
+Florianopolis (SC),Salvador (BH),economic,915.02,2.44,937.77,Rainbow
+Salvador (BH),Florianopolis (SC),economic,899.6,2.44,937.77,Rainbow
+Florianopolis (SC),Salvador (BH),premium,1367.88,2.44,937.77,Rainbow
+Salvador (BH),Florianopolis (SC),premium,1336.68,2.44,937.77,Rainbow
+Florianopolis (SC),Salvador (BH),firstClass,1692.64,2.44,937.77,FlyingDrops
+Salvador (BH),Florianopolis (SC),firstClass,1616.44,2.44,937.77,FlyingDrops
+Florianopolis (SC),Salvador (BH),firstClass,1640.8,2.44,937.77,CloudFy
+Salvador (BH),Florianopolis (SC),firstClass,1657.48,2.44,937.77,CloudFy
+Florianopolis (SC),Rio de Janeiro (RJ),economic,317.08,1.21,466.3,Rainbow
+Rio de Janeiro (RJ),Florianopolis (SC),economic,519.1,1.21,466.3,Rainbow
+Florianopolis (SC),Rio de Janeiro (RJ),premium,481.42,1.21,466.3,Rainbow
+Rio de Janeiro (RJ),Florianopolis (SC),premium,672.66,1.21,466.3,Rainbow
+Florianopolis (SC),Salvador (BH),premium,1311.38,2.44,937.77,CloudFy
+Salvador (BH),Florianopolis (SC),premium,1321.52,2.44,937.77,CloudFy
