@@ -4,14 +4,14 @@ import joblib
 import numpy as np
 
 # Load the saved model and encoders
-model = joblib.load('flight_price_model.joblib')
-le_from = joblib.load('le_from.joblib')
-le_to = joblib.load('le_to.joblib')
-le_type = joblib.load('le_type.joblib')
-le_agency = joblib.load('le_agency.joblib')
+model = joblib.load('./models/flight_price_model.joblib')
+le_from = joblib.load('./models/le_from.joblib')
+le_to = joblib.load('./models/le_to.joblib')
+le_type = joblib.load('./models/le_type.joblib')
+le_agency = joblib.load('./models/le_agency.joblib')
 
 # Load the CSV file containing time and distance information
-new_df = pd.read_csv('./new_df.csv')
+new_df = pd.read_csv('./models/new_df.csv')
 
 def flight_price_prediction_page():
     """Function for the Flight Price Prediction page."""

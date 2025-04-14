@@ -13,7 +13,7 @@ def hotel_recommendation_page():
     st.title('Hotel Recommendation App')
 
     # Load the dataset
-    file_path = 'hotels.csv'
+    file_path = './models/hotels.csv'
     sample_size = 5000  # Adjust the sample size as needed
 
     # Set a random seed for reproducibility

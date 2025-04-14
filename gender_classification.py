@@ -1,89 +1,45 @@
 import streamlit as st
-import pickle
 import pandas as pd
-import numpy as np
 from sentence_transformers import SentenceTransformer
-from sklearn.preprocessing import LabelEncoder
+import joblib
+import os
 
 def gender_classification_page():
-    st.title("Gender Classification Model")
+    # st.set_page_config(page_title="Name Gender Classifier", layout="wide")
+    st.title("Name-Based Gender Prediction")
 
-    # Initialize the SentenceTransformer model
-    model = SentenceTransformer('flax-sentence-embeddings/all_datasets_v4_MiniLM-L6')
+    model_file = './models/name_gender_classifier.pkl'
 
-    # Load the trained classification model and scaler model
-    scaler_model = pickle.load(open("scaler.pkl", 'rb'))
-    pca_model = pickle.load(open("pca.pkl", 'rb'))
-    logistic_model = pickle.load(open("tuned_logistic_regression_model.pkl", 'rb'))
+    # Check file existence
+    if not os.path.exists(model_file):
+        st.error("Model file not found! Please train the model first using `train_gender_classifier.py`.")
+        return
 
-    # Set default values for Usercode, Traveller Age, and Company Name (Because it doesn't contribute into prediction of gender.)
-    usercode = 0
-    traveller_age = 21
-    company_name = "Acme Factory"
+    try:
+        # Load full dict with classifier + label encoder
+        model_data = joblib.load(model_file)
+        classifier = model_data['classifier']
+        label_encoder = model_data['label_encoder']
+    except Exception as e:
+        st.error(f"Failed to load model data: {e}")
+        return
 
-    # Only show the input for the username
-    username = st.text_input("Username", "Charlotte Johnson")
+    # Sentence Transformer
+    model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
-    if st.button("Predict"):
-        # Create a dictionary to store the input data
-        data = {
-            'code': usercode,
-            'company': company_name,
-            'name': username,
-            'age': traveller_age,
-        }
+    # User input
+    name = st.text_input("Enter a name:", "")
 
-        # Perform prediction using the custom_input dictionary
-        prediction = predict_price(data, logistic_model, pca_model, scaler_model)
+    if name:
+        with st.spinner("Predicting gender..."):
+            embedding = model.encode([name])
 
-        if prediction == 0:
-            gender = 'female'
-        else:
-            gender = 'male'
+            prediction = classifier.predict(embedding)
+            probability = classifier.predict_proba(embedding)
+            gender = label_encoder.inverse_transform(prediction)[0]
 
-        st.success(f"Predicted gender: {gender}")
-def predict_price(input_data, lr_model, pca, scaler):
-    # Prepare the input data
-    text_columns = ['name']
-    model = SentenceTransformer('flax-sentence-embeddings/all_datasets_v4_MiniLM-L6')
+            confidence = max(probability[0]) * 100
+            st.metric("Predicted Gender", gender, f"{confidence:.1f}% confidence")
 
-    # Initialize an empty DataFrame
-    df = pd.DataFrame([input_data])
-
-    # Encode userCode and company to numeric values
-    label_encoder = LabelEncoder()
-
-    df['company_encoded'] = label_encoder.fit_transform(df['company'])
-
-    # Encode text-based columns and create embeddings
-    for column in text_columns:
-        df[column + '_embedding'] = df[column].apply(lambda text: model.encode(text))
-
-    # Apply PCA separately to each text embedding column
-    n_components = 23  # Adjust the number of components as needed
-    text_embeddings_pca = np.empty((len(df), n_components * len(text_columns)))
-
-    for i, column in enumerate(text_columns):
-        embeddings = df[column + '_embedding'].values.tolist()
-        embeddings_pca = pca.transform(embeddings)
-        text_embeddings_pca[:, i * n_components:(i + 1) * n_components] = embeddings_pca
-
-    # Combine text embeddings with other numerical features if available
-    numerical_features = ['code', 'company_encoded', 'age']
-
-    X_numerical = df[numerical_features].values
-
-    # Combine PCA-transformed text embeddings and numerical features
-    X = np.hstack((text_embeddings_pca, X_numerical))
-
-    # Scale the data using the same scaler used during training
-    X = scaler.transform(X)
-
-    # Make predictions using the trained Linear Regression model
-    y_pred = lr_model.predict(X)
-
-    return y_pred[0]
-
-# Run the app
-if __name__ == '__main__':
+if __name__ == "__main__":
     gender_classification_page()
