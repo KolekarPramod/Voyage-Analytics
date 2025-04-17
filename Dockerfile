@@ -10,9 +10,6 @@ COPY . /app
 # Install the dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Install pillow for image processing
-RUN pip install pillow
-
 # Expose the port the app runs on
 EXPOSE 8501
 

@@ -10,23 +10,17 @@ This project focuses on leveraging data analytics and machine learning to revolu
 
 ## 📋 Project Objectives:
 1. **Regression Model Development:** Predict flight prices using a regression model based on the flights dataset.
-2. **REST API:** Develop a Flask-based API for real-time flight price predictions.
+2. **Streamlit App:** Develop a streamlit webapp for real-time flight price predictions.
 3. **Containerization:** Package and deploy the model using Docker.
-4. **Kubernetes Deployment:** Use Kubernetes for scalable model deployment.
-5. **Automated Workflows:** Implement Apache Airflow for efficient data management and workflow orchestration.
-6. **CI/CD Pipeline:** Set up Jenkins for continuous integration and deployment of the model.
-7. **Model Tracking:** Use MLFlow for tracking and managing model versions.
-8. **Gender Classification:** Deploy a model for classifying user gender.
-9. **Travel Recommendation:** Build a recommendation system for hotel suggestions and create a Streamlit app for interactive insights.
+4. **Model Tracking:** Use MLFlow for tracking and managing model versions.
+5. **Gender Classification:** Deploy a model for classifying user gender.
+6. **Travel Recommendation:** Build a recommendation system for hotel suggestions and create a Streamlit app for interactive insights.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## 🛠️ Technologies Used:
 - **Machine Learning:** Regression, Classification, Recommendation Systems
 - **Containerization:** Docker
-- **Orchestration:** Kubernetes
-- **Workflow Management:** Apache Airflow
-- **CI/CD:** Git Actions
 - **Model Tracking:** MLFlow
 - **Web Application:** Streamlit
 
@@ -39,11 +33,10 @@ Ensure you have the following installed on your system:
 - Python 3.8+
 - Git
 - Docker
-- Kubernetes (Minikube or any other K8s setup)
-- Apache Airflow
-- Jenkins
 - MLFlow
 - Streamlit
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### Clone the Repository
 To get started, clone the repository to your local machine:
